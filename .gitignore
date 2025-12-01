@@ -1,0 +1,21 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# Sensitive files
+includes/db_connect.php
+includes/ca.pem
+
+# Local config & environment files
+*.env
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# Dependency folders (if you add frameworks later)
+node_modules/
+vendor/
