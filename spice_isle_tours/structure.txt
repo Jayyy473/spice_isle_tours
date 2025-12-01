@@ -1,0 +1,73 @@
+Folder PATH listing
+Volume serial number is 661A-28E9
+C:.
+
+.dockerignore
+.gitignore
+about.php
+blog.php
+book.php
+ca.pem
+cancel_booking.php
+check_password.php
+contact.php
+dashboard.php
+Dockerfile
+gallery.php
+index.php
+login.php
+logout.php
+my_bookings.php
+register.php
+structure.txt
+tours.php
+
+admin/
+    add_blog.php
+    admin.php
+    admin_blog.php
+    admin_login.php
+    admin_messages.php
+    admin_navbar.php
+    create_admin.php
+    dashboard.php
+    delete_blog.php
+    edit_blog.php
+    logout.php
+    manage_posts.php
+    manage_tours.php
+    setup_admin.php
+    setup_tours.php
+    test.php
+    verify_password.php
+
+css/
+    admin.css
+    styles.css
+
+images/
+    about.jpg
+    about.jpg.jpeg
+    beach1.jpeg
+    carriacou.jpg
+    carriacou.jpg.jpeg
+    diving.jpg
+    grenada1.jpg
+    grenada1.jpg.jpeg
+    spice1.jpg.jpeg
+    spice_plantation.jpg
+    spice_plantation.jpg.jpeg
+    tour1.jpeg
+    tour2.jpeg
+    waterfall1.jpg
+    waterfall1.jpg.jpeg
+    wqkke.jpeg
+
+includes/
+    db_connect.php
+    footer.php
+    functions.php
+    header.php
+
+js/
+    script.js
