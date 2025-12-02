@@ -1,0 +1,236 @@
+/* General Reset */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Admin Navbar */
+.admin-navbar {
+  background-color: #009688;
+  padding: 15px 30px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-navbar h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.admin-navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-navbar li {
+  margin-left: 20px;
+}
+
+.admin-navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.admin-navbar a:hover {
+  color: #ffd54f;
+}
+
+/* Dashboard Section */
+.admin-dashboard {
+  max-width: 1100px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.admin-dashboard h1 {
+  color: #009688;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.admin-dashboard p {
+  color: #555;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-cancel {
+  background-color: #ff4d4d;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-cancel:hover {
+  background-color: #cc0000;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #009688;
+  color: #fff;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Forms */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+button, input[type="submit"] {
+  background-color: #009688;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: #00796b;
+}
+
+/* Footer */
+footer {
+  background: #009688;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+
+
+/* Admin Container Layout */
+.admin-container {
+  max-width: 1000px;
+  margin: 40px auto; /* Centers the container */
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Headings */
+.admin-container h1,
+.admin-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Paragraphs */
+.admin-container p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+/* Center Quick Action Buttons */
+.admin-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+/* admin.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Newsletter input box */
+.newsletter-input {
+    background-color: #f1c40f;  /* Sandy beige */
+    color: #000000;            /* Text color */
+    border: 2px solid #e67e22; /* Optional border */
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Optional: focus effect */
+.newsletter-input:focus {
+    outline: none;
+    border-color: #1abc9c;  /* Turquoise on focus */
+    background-color: #ffffff;
+}
